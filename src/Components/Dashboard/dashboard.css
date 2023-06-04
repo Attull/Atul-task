@@ -1,0 +1,91 @@
+.dashboard-container {
+    background-image: url('../../assets/dashboardBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 560px;
+}
+
+.heading {
+    position: absolute;
+    width: 764px;
+    height: 264px;
+    left: 354px;
+    top: 176px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 132px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 6.44%, #FFFFFF 95.08%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar-container {
+    /* Auto layout */
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 12px;
+    align-items: center;
+    padding: 0px 15px;
+    
+    position: absolute;
+    width: 1136px;
+    height: 80px;
+    left: 120px;
+    top: 24px;
+}
+
+.logo {
+    /* Dark */
+    left:0;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    width:400px;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Dancing Script';
+    padding-left: 10px;
+}
+.nav-items li{
+    list-style: none;
+    font-family: 'IBM Plex Mono'
+}
+
+.nav-items li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul li a:link{
+    color:black;
+}
+
+ul li a:visited{
+    color:black;
+}
+
+.navbar-container button{
+    width: 128px;
+    height: 35px;
+    background: #008080;
+    border-radius: 8px;
+    border: none;
+    color:white;
+    cursor: pointer;
+}

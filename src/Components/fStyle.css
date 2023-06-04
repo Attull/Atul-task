@@ -1,0 +1,14 @@
+.footer {
+    background-color: #001A1A;
+    height:10vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer h1{
+    position: absolute;
+    left:200px;
+    font-family: 'Dancing script';
+    color:white;
+
+}

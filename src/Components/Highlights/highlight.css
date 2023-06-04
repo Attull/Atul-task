@@ -1,0 +1,23 @@
+h3 {
+    /* Body - Bold */
+    padding-left: 210px;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.h-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-card-container div{
+    font-family: 'IBM Plex Mono';
+}
+
+a{
+    text-decoration: none;
+}
