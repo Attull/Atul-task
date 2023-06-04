@@ -22,7 +22,21 @@ a{
     text-decoration: none;
 }
 
-.activity-container{
-   position: absolute;
+.activity-container {
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 560px;
+}
 
+.activities-cards{
+    background: #E6F2F2;
+    min-height: 60vh;
+}
+
+.desc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
 }

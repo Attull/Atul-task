@@ -2,13 +2,13 @@ import React from 'react'
 import { Collapse } from 'antd';
 import './category.css'
 
-export const CategoryCard = ({ key, name, activities }) => {
+export const CategoryCard = ({ name, activities }) => {
   const { Panel } = Collapse;
-console.log(key)
+
   return (
     <>
       <Collapse accordion>
-        <Panel header={name} key={key}>
+        <Panel header={name} key={name}>
           <ol>
             {
               activities.map((activity,i) => {
