@@ -21,3 +21,8 @@ h3 {
 a{
     text-decoration: none;
 }
+
+.activity-container{
+   position: absolute;
+
+}
